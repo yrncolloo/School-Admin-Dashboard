@@ -1,3 +1,5 @@
+use school_admin_dashboard::App;
+
 fn main() {
-    println!("Hello, world!");
+    yew::Renderer::<App>::new().render();
 }
