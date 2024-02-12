@@ -1,5 +1,4 @@
-
-use crate::components::ui::{title::Title, title::TitleLevel, top_nav::TopNav};
+use crate::components::ui::{title::Title, title::TitleLevel, top_nav::TopNav, school_attendance::SchoolAttendance};
 use stylist::yew::styled_component;
 use yew::{html, Html};
 
@@ -12,6 +11,7 @@ pub fn MainSection() -> Html{
             <Title level={TitleLevel::One}> {"Admin Dashboard"}</Title>
             <p> {"Hello Shilla, welcome to your Dashboard"}</p>
             <TopNav/>
+            <SchoolAttendance/>
 
         </div>
     }

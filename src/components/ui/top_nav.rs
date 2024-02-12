@@ -9,7 +9,7 @@ pub fn TopNav() -> Html{
     let style = style!{
         .items{
         text-align:center;
-        margin:1rem;
+        margin:0.3rem;
         padding:0.5rem;
         width:100%;
         background-color:#E7E7E7;
@@ -23,7 +23,7 @@ pub fn TopNav() -> Html{
             cursor:pointer;
         }
         display:flex;
-        width:110vh;
+        width:100vh;
         align-item:left;
 
     }.unwrap();
